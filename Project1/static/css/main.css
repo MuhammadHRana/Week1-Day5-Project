@@ -2,9 +2,22 @@
     border: none;
 }
 
+.navbar {
+    font-weight: 300;
+    
+ } 
+ a:hover {
+	color:#999;
+}
+
 .contact-image {
     border: white;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
 }
+
+
 
 .spacing {
     color: lightgray;
@@ -41,6 +54,7 @@ hr {
 }
 
 .article-content.three {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15pt;
 }
 
