@@ -1,72 +1,70 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <title>Title</title>
+  <head>
+    <title>Title</title>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="./static/css/main.css">
-</head>
-
-<body>
-  <header>
-
+    <link rel="stylesheet" href="./static/css/main.css">
+  </head>
+  <body>
+    <header>
     <!-- HEADER -->
-    <br>
-    <div class="container-fluid main-header">
-      <div class="header col-1 offset-11">
-        <button class="login">Login</button>
-      </div>
-      <div class="row">
-        <div class="header col-1 offset-1">
+      <br>
+      <div class="container-fluid main-header">
+        <div class="header col-1 offset-11">
+          <button type="button" class=" btn btn-outline-dark">Login</button> 
+        </div>
+        <div class="row">
+          <div class="header col-11 offset-1">
           <button>
-            <a href="./info.html"><img src="./static/images/Logo.jpg" alt=""></a>
+            <a href="./info.html"><img src="./static/images/Logo.jpg" alt="lawfirm button"></a>
           </button>
         </div>
-        <div class="justify-content-left col-3 offset-1">
-          <h1>NIELSON,ZEHE & ANTAS, P.C.</h1>
+        <div class="justify-content-left col-md-8 offset-6">
+          <h1>NIELSON, ZEHE & ANTAS, P.C.</h1>
         </div>
       </div>
     </div>
-
+<!---adjusted teh col/offset for h1. still not perfect when collapsed /mz-->
   <!-- START NAVBAR -->
     <main class="container-fluid">
-        <HR class=" col-10 offset-1">
-        </HR>
+      <HR class=" col-10 offset-1"></HR>
         <div class="navbar">
-          <nav class="navbar navbar-expand-sm navbar-black bg-none col-11 offset-1 justify-content-around">
-            <a class="navbar-brand" href="./who_we_are.html">WHO WE ARE</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+          <nav class="navbar navbar-expand-sm navbar-black bg-none col-10 offset-2 justify-content-around">
+            <h3 class="spacing">|</h3>
+              <a class="navbar-brand" href="./who_we_are.html" alt= "lawfirm logo">WHO WE ARE</a>
+              <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
               aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
+              </button>
             <h3 class="spacing">|</h3>
-            <a class="navbar-brand" href="./what_we_do.html">WHAT WE DO</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+              <a class="navbar-brand" href="./what_we_do.html">WHAT WE DO</a>
+              <button class="navbar-toggler d-lg-none" type="button"    data-toggle="collapse" data-target="#collapsibleNavId"
+              aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+              </button>
+            <h3 class="spacing">|</h3>
+              <a class="navbar-brand" href="./new_and_events.html">NEWS & EVENTS</a>
+              <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
               aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
+              </button>
             <h3 class="spacing">|</h3>
-            <a class="navbar-brand" href="./new_and_events.html">NEWS & EVENTS</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+              <a class="navbar-brand" href="./where_we_work.html">WHERE WE WORK</a>
+              <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
               aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
+              </button>
             <h3 class="spacing">|</h3>
-            <a class="navbar-brand" href="./where_we_work.html">WHERE WE WORK</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-              aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <h3 class="spacing">|</h3>
-            <a class="navbar-brand" href="./contact_us.html">CONTACT US</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+              <a class="navbar-brand" href="./contact_us.html">CONTACT US</a>
+              <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
               aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -74,8 +72,7 @@
         </div>
 
         </nav>
-        <HR class=" col-10 offset-1">
-        </HR>
+        <HR class=" col-10 offset-1"></HR>
         <!-- END NAVBAR -->
     </main>
   </header>
@@ -87,7 +84,7 @@
         <div class="col-8 offset-1">
           <article>
             <div class="article-content">
-              <p>
+              <p> <!--not sure why this p is here /mz-->
                 <strong>
                   <img class="col-12" src="./static/images/nza_slideshow.jpg" alt="Main Image">
                   <br>
@@ -101,22 +98,21 @@
         </div>
         <div class="col-2">
           <article>
-            <div class="article-content two" style="height:500px;width:auto;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+            <!-- <div class="article-content two" style="height:500px;width:auto;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;"> MOVED TO CSS /mz-->
               <p>
                 <strong>
                   <h5>NEWS FEED</h5>
                   <hr>
                   <br>
-                  <p class="text-break">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dicta sapiente ad, labore corrupti nostrum modi sint cum ullam ipsa non aspernatur harum reprehenderit! Dicta sit, nobis tenetur earum beatae accusantium, repellat dolor perferendis corrupti, fugiat voluptate numquam vel provident harum consequuntur cupiditate. Illum reprehenderit quo minus, nam nostrum incidunt expedita ipsa ut cupiditate, numquam veritatis earum at. Aperiam totam laboriosam ex voluptatem, laborum aliquid fugit optio voluptatibus nemo labore cumque nobis corporis molestiae? Sed exercitationem, hic modi iusto dolore aliquam illo vitae perspiciatis voluptatem quae cum repellat explicabo labore dolorem. Quidem adipisci quibusdam expedita vel, esse inventore ad in!</p>
+                  <p class="text-break">Lorem lorem loop lopp ipsum dolor sit amet, consectetur adipisicing elit. Quae dicta sapiente ad, labore corrupti nostrum modi sint cum ullam ipsa non aspernatur harum reprehenderit! Dicta sit, nobis tenetur earum beatae accusantium, repellat dolor perferendis corrupti, fugiat voluptate numquam vel provident harum consequuntur cupiditate. Illum reprehenderit quo minus, nam nostrum incidunt expedita ipsa ut cupiditate, numquam veritatis earum at. Aperiam totam laboriosam ex voluptatem, laborum aliquid fugit optio voluptatibus nemo labore cumque nobis corporis molestiae? Sed exercitationem, hic modi iusto dolore aliquam illo vitae perspiciatis voluptatem quae cum repellat explicabo labore dolorem. Quidem adipisci quibusdam expedita vel, esse inventore ad in!</p>
                   <br>
                 </strong>
               </p>
             </div>
             <br>
             <strong>
-              <h6>Bigshot,Zoo, & Adds, P.C.</h6>
-              <p>419 West South Street, Suite 4200 <br>
-                Houston, Texas 35983 <br>
+              <h6>Bigshot, Zoo, & Adds, P.C.</h6>
+              <p>419 West South Street, <br> Suite 4200 <br> Houston, Texas 35983 <br>
                 555-555-555 (Phone) <br>
                 555-555-555 (Fax)</p>
             </strong>
@@ -152,14 +148,14 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <h3 class="spacing">|</h3>
-        <a class="navbar-brand" href="./where_we_work.html">WHERE WE WORK</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+          <a class="navbar-brand" href="./where_we_work.html">WHERE WE WORK</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
           aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
         <h3 class="spacing">|</h3>
-        <a class="navbar-brand" href="./contact_us.html">CONTACT US</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+          <a class="navbar-brand" href="./contact_us.html">CONTACT US</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
           aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -179,6 +175,5 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-</body>
-
+  </body>
 </html>
